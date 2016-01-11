@@ -1,4 +1,4 @@
-///@private
+/// @access private
 @mixin _responsive-size($prefix:null){
 
   .#{$prefix}height-50{
@@ -106,7 +106,7 @@
   }
 }
 
-///@private
+/// @access private
 @mixin _responsive-min-height($prefix:null){
 
   .#{$prefix}min-height-50{
@@ -136,7 +136,7 @@
 
 }
 
-///@public
+/// @access public
 @mixin responsive-size(){
 
   @include _responsive-size();
