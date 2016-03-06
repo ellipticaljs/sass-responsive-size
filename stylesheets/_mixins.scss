@@ -136,6 +136,60 @@
 
 }
 
+@mixin _touch-margin-padding(){
+  .touch-margin-top{
+    margin-top:1em;
+    &.two{
+      margin-top:2em;
+    }
+  }
+  .touch-margin-bottom{
+    margin-bottom:1em;
+    &.two{
+      margin-bottom:2em;
+    }
+  }
+  .touch-margin-left{
+    margin-left:1em;
+    &.two{
+      margin-left:2em;
+    }
+  }
+  .touch-margin-right{
+    margin-right:1em;
+    &.two{
+      margin-right:2em;
+    }
+  }
+
+  .touch-padding-top{
+    padding-top:1em;
+    &.two{
+      padding-top:2em;
+    }
+  }
+  .touch-padding-bottom{
+    padding-bottom:1em;
+    &.two{
+      padding-bottom:2em;
+    }
+  }
+  .touch-padding-left{
+    padding-left:1em;
+    &.two{
+      padding-left:2em;
+    }
+  }
+  .touch-padding-right{
+    padding-right:1em;
+    &.two{
+      padding-right:2em;
+    }
+  }
+
+}
+
+
 /// @access public
 @mixin responsive-size(){
 
@@ -145,6 +199,7 @@
   @include touch-content(){
     @include _responsive-size($prefix:touch-);
     @include _responsive-min-height($prefix:touch-);
+    @include _touch-margin-padding();
   }
 
   @include phone-content(){
