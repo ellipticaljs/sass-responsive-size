@@ -205,5 +205,17 @@
   @include phone-content(){
     @include _responsive-size($prefix:phone-);
     @include _responsive-min-height($prefix:phone-);
+    .phone-margin-top{
+      margin-top:1em;
+      &.two{
+        margin-top:two;
+      }
+    }
+    .phone-margin-bottom{
+      margin-bottom:1em;
+      &.two{
+        margin-bottom:two;
+      }
+    }
   }
 }

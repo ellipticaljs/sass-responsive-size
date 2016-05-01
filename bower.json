@@ -2,7 +2,7 @@
   "name": "sass-responsive-size",
   "description": "Responsive css classes for size properties",
   "main": "dist/responsive.size.css",
-  "version":"1.0.4",
+  "version":"1.0.5",
   "authors": [
     "S. Francis"
   ],

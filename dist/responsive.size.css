@@ -298,4 +298,12 @@
   .phone-min-height-400 {
     min-height: 400px; }
   .phone-min-height-500 {
-    min-height: 500px; } }
+    min-height: 500px; }
+  .phone-margin-top {
+    margin-top: 1em; }
+    .phone-margin-top.two {
+      margin-top: two; }
+  .phone-margin-bottom {
+    margin-bottom: 1em; }
+    .phone-margin-bottom.two {
+      margin-bottom: two; } }
